@@ -14,7 +14,7 @@ OPTIONS HANDLED
 • Handled -c
 
 TEST CASES
-anshks@ansh-msi:/home/anshks/Desktop$ echo ansh 
+anshks@ansh-msi:/home/anshks/Desktop$ echo ansh <br />
 ansh 
 anshks@ansh-msi:/home/anshks/Desktop$ cd ..
 anshks@ansh-msi:/home/anshks$ history -w
