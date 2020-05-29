@@ -1,17 +1,20 @@
 # Linux-Shell
+
 INTERNAL COMMANDS
 
 history:
-	BUGS HANDLED
-    • Handled any number of arguments.
-    • Handled extra spaces at the start and in the middle of arguments.
-    • Maintained history even after session ends.
+	
+BUGS HANDLED
+• Handled any number of arguments.
+• Handled extra spaces at the start and in the middle of arguments.
+• Maintained history even after session ends.
        
-       OPTIONS HANDLED
-    • Handled -w
-    • Handled -c
+OPTIONS HANDLED
+• Handled -w
+• Handled -c
 
-	TEST CASES
+TEST CASES
+'''
 anshks@ansh-msi:/home/anshks/Desktop$ echo ansh 
 ansh 
 anshks@ansh-msi:/home/anshks/Desktop$ cd ..
@@ -21,18 +24,20 @@ anshks@ansh-msi:/home/anshks/Desktop$ echo -c
 -c 
 anshks@ansh-msi:/home/anshks/Desktop$ history -c
 anshks@ansh-msi:/home/anshks/Desktop$ echo ansh cd .. history -w
+'''
 
 echo:
-	BUGS HANDLED
-    • Handled any number of arguments.
-    • Handled quotation marks.
-    • Handled extra spaces at the start and in the middle of arguments.
-       
-       OPTIONS HANDLED
-    • Handled -n
-    • Handled -E
 
-	TEST CASES
+BUGS HANDLED
+• Handled any number of arguments.
+• Handled quotation marks.
+• Handled extra spaces at the start and in the middle of arguments.
+       
+OPTIONS HANDLED
+• Handled -n
+• Handled -E
+
+TEST CASES
 anshks@ansh-msi:/home/anshks/Desktop$ echo -n ansh is good
 ansh is good anshks@ansh-msi:/home/anshks/Desktop$ echo -E fuesnknlfse
 fuesnknlfse
