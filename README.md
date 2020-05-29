@@ -88,53 +88,53 @@ TEST CASES<br />
 OPTIONS HANDLED<br />
 • No option to handle.<br />
 <br />
-EXTERNAL COMMANDS
-
-ls:
-Complete Functionality
-
-TEST CASES
-	anshks@ansh-msi:/home/anshks$ exit 0 fsc
-	exit
-	bash: exit: too many arguments
-	anshks@ansh-msi:/home/anshks$ exit
-	Bye
-   
-   
-cat:
-Complete Functionality
-
-TEST CASES
-	anshks@ansh-msi:/home/anshks/Desktop/rmd$ ls -l
-	total 4
-	drwxr-xr-x 5 anshks anshks 4096 Jul 23 22:36 flairdetection
-	anshks@ansh-msi:/home/anshks/Desktop/rmd$ ls -a
-	.  ..  flairdetection
-	anshks@ansh-msi:/home/anshks/Desktop/rmd$ ls
-	flairdetection
-
-
-date:
-Complete Functionality
-
-TEST CASES
-	anshks@ansh-msi:/home/anshks/Desktop/rmd$ date
-	Tue Sep  3 23:37:00 IST 2019
-
-
-rm:
-Complete Functionality
-
-TEST CASES
-	anshks@ansh-msi:/home/anshks/Desktop$ rm -r a
-	anshks@ansh-msi:/home/anshks/Desktop$ rm -r b
-	anshks@ansh-msi:/home/anshks/Desktop$ rm -r c
-	anshks@ansh-msi:/home/anshks/Desktop$ rm -r d
-
-
-mkdir:
-Complete Functionality
-
-TEST CASES
-	anshks@ansh-msi:/home/anshks/Desktop$ mkdir a b c d
-	anshks@ansh-msi:/home/anshks/Desktop$ mkdir d/e
+EXTERNAL COMMANDS<br />
+<br />
+ls:<br />
+Complete Functionality<br />
+<br />
+TEST CASES<br />
+	anshks@ansh-msi:/home/anshks$ exit 0 fsc<br />
+	exit<br />
+	bash: exit: too many arguments<br />
+	anshks@ansh-msi:/home/anshks$ exit<br />
+	Bye<br />
+   <br />
+   <br />
+cat:<br />
+Complete Functionality<br />
+<br />
+TEST CASES<br />
+	anshks@ansh-msi:/home/anshks/Desktop/rmd$ ls -l<br />
+	total 4<br />
+	drwxr-xr-x 5 anshks anshks 4096 Jul 23 22:36 flairdetection<br />
+	anshks@ansh-msi:/home/anshks/Desktop/rmd$ ls -a<br />
+	.  ..  flairdetection<br />
+	anshks@ansh-msi:/home/anshks/Desktop/rmd$ ls<br />
+	flairdetection<br />
+<br />
+<br />
+date:<br />
+Complete Functionality<br />
+<br />
+TEST CASES<br />
+	anshks@ansh-msi:/home/anshks/Desktop/rmd$ date<br />
+	Tue Sep  3 23:37:00 IST 2019<br />
+<br />
+<br />
+rm:<br />
+Complete Functionality<br />
+<br />
+TEST CASES<br />
+	anshks@ansh-msi:/home/anshks/Desktop$ rm -r a<br />
+	anshks@ansh-msi:/home/anshks/Desktop$ rm -r b<br />
+	anshks@ansh-msi:/home/anshks/Desktop$ rm -r c<br />
+	anshks@ansh-msi:/home/anshks/Desktop$ rm -r d<br />
+<br />
+<br />
+mkdir:<br />
+Complete Functionality<br />
+<br />
+TEST CASES<br />
+	anshks@ansh-msi:/home/anshks/Desktop$ mkdir a b c d<br />
+	anshks@ansh-msi:/home/anshks/Desktop$ mkdir d/e<br />
